@@ -1,0 +1,21 @@
+{
+	"version": "1.0",
+	"defaultProvider": "jsdelivr",
+	"libraries": [
+		{
+			"library": "bootstrap@5.1.3",
+			"destination": "wwwroot/lib/bootstrap"
+		},
+		{
+			"library": "bootstrap-icons@1.8.1",
+			"destination": "wwwroot/lib/bootstrap-icons",
+			"files": [
+				"font/*",
+				"font/fonts/*",
+				"icons/chevron-down.svg",
+				"icons/cart2.svg",
+				"icons/cart3.svg"
+			]
+		}
+	]
+}
